@@ -1,0 +1,11 @@
+#display-products .card-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+#display-products .card {
+    float: left;
+    width: 25%;
+    margin-left: 6%;
+    min-width: 20em;
+}
