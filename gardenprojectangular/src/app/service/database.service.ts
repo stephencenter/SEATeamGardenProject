@@ -12,7 +12,7 @@ export class DatabaseService {
 
   constructor(private _http: HttpClient) { }
 
-  getBooks(): Observable<Product[]> {
+  getProducts(): Observable<Product[]> {
     return this._http.get<Product[]>(this._dbUrl)
   }
 }
